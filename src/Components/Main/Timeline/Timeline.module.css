@@ -1,0 +1,13 @@
+.container {
+  margin: 0 auto;
+  grid-column: 1 / -1;
+  width: 96%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: var(--color-white);
+  
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: var(--shadow-medium);
+}

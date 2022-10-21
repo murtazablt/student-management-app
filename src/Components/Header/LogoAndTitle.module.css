@@ -1,0 +1,50 @@
+/* Logo and Title */
+.logo-and-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo svg {
+  width: 7.5rem;
+  height: 7.5rem;
+  transform: translateY(-10px);
+}
+
+.direction {
+  position: relative;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #99a7bb;
+  margin-left: 1rem;
+}
+.direction a:link,
+.direction a:visited {
+  text-decoration: none;
+  color: inherit;
+
+  transition: all 0.3s;
+}
+.direction a:link:hover,
+.direction a:visited:hover{
+  color: var(--color-grey-dark-3);
+}
+.direction span {
+  color: #65758c;
+}
+.direction::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #65758c;
+  z-index: 10;
+  bottom: -16px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
