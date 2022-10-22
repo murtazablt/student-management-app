@@ -1,9 +1,9 @@
 import LineBox from "./LineBox";
 
 import classes from "./TimelineChart.module.css";
-// import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 
+// import Swiper core and required modules
+import { Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -29,11 +29,15 @@ const TimelineChart = () => {
       >
         {days.map((day) => (
           <SwiperSlide key={day}>
-            <LineBox key={day} day={`8/${day}`} />
+            <LineBox day={`8/${day}`} now={day === 10 ? true : false}  />
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className={classes["now-line"]}></div>
+      {/* <div className={classes["grid-overlay"]}>
+        <div className={classes["now-line"]}>
+          <span>Now</span>{" "}
+        </div>
+      </div> */}
     </div>
   );
 };
