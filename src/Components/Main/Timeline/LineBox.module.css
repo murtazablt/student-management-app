@@ -46,14 +46,15 @@
 .task-box {
   position: absolute;
   z-index: 10;
-  width: 375px;
+  width: 850%;
   flex: 1;
-  height: 36px;
+  height: 16%;
   border-radius: 100px;
   background-color: #bef264;
   left: 20px;
   bottom: 40px;
   display: flex;
+  box-shadow: var(--shadow-light);
 }
 .text-box {
   display: flex;
@@ -99,12 +100,22 @@
 .box-1 {
 }
 .box-7 {
+  width: 520%;
+  background-color: #fef08a;
 }
 .box-7-plus {
+  background-color: #fef08a;
+  width: 520%;
+  left: 20px;
+  bottom: 82px;
 }
 .box-11 {
-  background-color: aqua;
+  background-color: #e2e8f0;
+  width: 520%;
+  left: 20px;
+  bottom: 82px;
 }
 .box-15 {
-  background-color: #495057;
+  background-color: #e2e8f0;
+  width: 710%;
 }

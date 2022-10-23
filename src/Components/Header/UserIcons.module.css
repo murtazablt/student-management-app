@@ -1,10 +1,12 @@
 .user-icons{
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 3rem;
 }
 .user-icon{
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.3rem;
+    height: 2.3rem;
     color: var(--color-primary);
     margin-right: 3rem;
 }
@@ -28,4 +30,8 @@
 .user-icon a:link:hover,
 .user-icon a:visited:hover{
     color: #c3c9ce;
+}
+.user-icon-link svg {
+    width: 100%;
+    height: 100%;
 }

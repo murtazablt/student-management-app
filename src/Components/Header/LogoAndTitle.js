@@ -1,5 +1,5 @@
 import classes from "./LogoAndTitle.module.css";
-import icons from "../../Assets/Icons";
+import icons from "../../Assets/Icons/index";
 
 const LogoAndTitle = () => {
   return (

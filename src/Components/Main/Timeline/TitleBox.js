@@ -1,12 +1,15 @@
 import classes from "./TitleBox.module.css";
-import icons from "../../../Assets/Icons";
+import icons from "../../../Assets/Icons/index";
 
 const TitleBox = () => {
+  const {PresentationChart} = icons
+
+
   return (
     <div className={classes["title-box"]}>
       <div className={classes["header-box"]}>
         <div className={classes.header}>
-          {icons.presentationChart}
+          <PresentationChart/>
           <h1>Project 1 Timeline</h1>
         </div>
         <a href="#">Oversee and manage all activities</a>

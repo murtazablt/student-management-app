@@ -1,8 +1,49 @@
+import React from "react";
 import classes from "./LineBox.module.css";
-import icons from "../../../Assets/Icons/index";
-import cx from 'classnames'
+import icons from "../../../Assets/Icons/index/index";
+import cx from "classnames";
 
 const LineBox = ({ day, now, addTask }) => {
+  const { Upload, ClipBoard, HalfStar, AddCheck } = icons;
+
+  const specialDays = [1, 7, 77, 11, 15];
+  const generateCardInfo = (specialDay) => {
+    switch (specialDay) {
+      case 1:
+        return {
+          iconComponent: Upload,
+          subject: "Students",
+          action: "Submit Papers",
+        };
+      case 7:
+        return {
+          iconComponent: ClipBoard,
+          subject: "Instructors",
+          actiob: "Review papers",
+        };
+      case 77:
+        return {
+          iconComponent: ClipBoard,
+          subject: "Students",
+          action: "Review papers",
+        };
+      case 11:
+        return {
+          IconComponent: AddCheck,
+          subject: "Instuctors",
+          action: "Prepare and view grade",
+        };
+      case 15:
+        return {
+          iconComponent: HalfStar,
+          subject: "Students",
+          action: "Rate feedback and view grade",
+        };
+      default:
+        return null;
+    }
+  };
+
   return (
     <div className={classes[`dotted-line-box`]}>
       {now ? (
@@ -13,7 +54,29 @@ const LineBox = ({ day, now, addTask }) => {
       ) : null}
       {addTask ? (
         <div className={cx(classes[`task-box`], classes[`box-${day}`])}>
-          <div className={classes["icon-box"]}>{icons.upload}</div>
+          {/* {specialDays.map((speacialDay) => {
+            const { IconComponent, subject,action } = generateCardInfo(speacialDay);
+
+            const markup = (
+              <div>
+                <div className={classes["icon-box"]}>
+                  {<IconComponent />}
+                </div>
+                <div className={classes["text-box"]}>
+                  {<p>{subject}</p>}
+                  <span>{action}</span>
+                </div>
+              </div>
+            );
+
+            return <React.Fragment>{markup}</React.Fragment>;
+          })} */}
+
+
+          
+          <div className={classes["icon-box"]}>
+            <Upload />
+          </div>
           {day === 1 && (
             <div className={classes["text-box"]}>
               <p>Students</p>
@@ -49,6 +112,8 @@ const LineBox = ({ day, now, addTask }) => {
           </div>
         </div>
       ) : null}
+
+
       <div className={classes["dotted-line"]}></div>
       <a href="#" className={classes["dotted-line-day"]}>
         {`8/${day}`}
