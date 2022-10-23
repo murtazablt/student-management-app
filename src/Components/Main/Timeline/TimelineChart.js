@@ -16,21 +16,6 @@ const TimelineChart = () => {
     22, 23, 24, 25, 26, 27, 28, 29, 30,
   ];
 
-  const checkDays = (day) => {
-    switch (day) {
-      case 1:
-        return true;
-      case 7:
-        return true;
-      case 11:
-        return true;
-      case 15:
-        return true;
-      default:
-        return false;
-    }
-  };
-
   return (
     <div className={classes.wrapper}>
       <Swiper
@@ -47,7 +32,6 @@ const TimelineChart = () => {
             <LineBox
               day={day}
               now={day === 10 ? true : false}
-              addTask={checkDays(day)}
             />
           </SwiperSlide>
         ))}

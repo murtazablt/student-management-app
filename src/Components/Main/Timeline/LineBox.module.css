@@ -119,3 +119,48 @@
   background-color: #e2e8f0;
   width: 710%;
 }
+
+.icon-box-1 svg {
+}
+.icon-box-7 svg {
+  color: var(--color-primary);
+}
+.icon-box-7-plus svg {
+  color: var(--color-primary);
+}
+.icon-box-11 svg {
+  color: var(--color-primary);
+}
+.icon-box-15 svg {
+  color: var(--color-primary);
+}
+
+.icon-box-1::before {
+}
+.icon-box-7::before {
+  border: 2px solid #84cc16;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  transform: rotate(45deg);
+}
+.icon-box-7-plus::before {
+  border: 2px solid #84cc16;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  transform: rotate(45deg);
+}
+.icon-box-11::before {
+  border: 2px solid var(--color-primary);
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  transform: rotate(45deg);
+}
+.icon-box-15::before {
+  border: 2px solid var(--color-primary);
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  transform: rotate(45deg);
+  
+}
