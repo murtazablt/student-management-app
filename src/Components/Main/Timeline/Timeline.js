@@ -1,7 +1,7 @@
 import React from "react";
 
-import TitleBox from "./TitleBox";
-import TimelineChart from "./TimelineChart";
+import TitleBox from "../TitleBox/TitleBox";
+import TimelineChart from "./TimeLineChart/TimelineChart";
 
 import classes from "./Timeline.module.css";
 

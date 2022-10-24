@@ -1,48 +1,3 @@
-.dotted-line-box {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 90%;
-}
-.dotted-line {
-  flex: 1 0 0;
-  border-left: 2px dotted var(--color-grey-light-1);
-  width: 5px;
-}
-
-.dotted-line-day:link,
-.dotted-line-day:visited {
-  text-decoration: none;
-  color: var(--color-grey-dark-1);
-}
-.dotted-line-day:link:hover,
-.dotted-line-day:visited:hover {
-  color: var(--color-grey-dark-2);
-}
-
-.now-line-box {
-  position: absolute;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  left: -18px;
-  top: -4px;
-}
-.now-line {
-  width: 5px;
-  border-left: 2px solid var(--color-primary);
-  height: 100%;
-}
-.now-text {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--color-primary);
-}
 .task-box {
   position: absolute;
   z-index: 10;
@@ -138,13 +93,13 @@
 .icon-box-1::before {
 }
 .icon-box-7::before {
-  border: 2px solid #84cc16;
+  border: 2px solid #e7d021;
   border-left-color: transparent;
   border-bottom-color: transparent;
   transform: rotate(45deg);
 }
 .icon-box-7-plus::before {
-  border: 2px solid #84cc16;
+  border: 2px solid #e7d021;
   border-left-color: transparent;
   border-bottom-color: transparent;
   transform: rotate(45deg);
@@ -162,5 +117,4 @@
   border-bottom-color: transparent;
   border-right-color: transparent;
   transform: rotate(45deg);
-  
 }

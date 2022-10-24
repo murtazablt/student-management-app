@@ -1,0 +1,34 @@
+.header-box {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header svg {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  color: var(--color-primary);
+}
+.header h1 {
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+.header-box a:link,
+.header-box a:visited {
+  text-decoration: none;
+  color: #738196;
+  font-size: 1rem;
+  font-weight: 600;
+
+  transition: all 0.3;
+}
+.header-box a:link:hover,
+.header-box a:visited:hover {
+  color: #303136;
+}

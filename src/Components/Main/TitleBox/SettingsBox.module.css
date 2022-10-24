@@ -1,0 +1,32 @@
+.settings-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.settings-link {
+  margin-right: 3rem;
+}
+.settings-link:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 50%;
+  bottom: 2px;
+  background-color: #d7dfe8;
+  z-index: 20;
+  margin-left: 10px;
+}
+
+.settings-link a:link,
+.settings-link a:visited {
+  text-decoration: none;
+  color: #d7dfe8;
+  letter-spacing: 0.5px;
+  transition: all 0.3s;
+}
+
+.settings-link a:link:hover,
+.settings-link a:visited:hover {
+  color: var(--color-primary);
+}
