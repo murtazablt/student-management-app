@@ -56,6 +56,30 @@
     flex: 0 0 50%;
  
 }
+/* .img-div-1{
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../Assets/Images/chart1.png);
+    background-size: auto;
+}
+.img-div-2{
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../Assets/Images/chart2.png);
+    background-size: auto;
+}
+*/
+.img-div-3{
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../Assets/Images/pie-chart-illus.png);
+    background-size: cover;
+}
+.img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .info-box{
     padding: 2px 8px;
 }

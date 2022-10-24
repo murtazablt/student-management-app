@@ -18,7 +18,11 @@ const ResultsCard = () => {
               <h2>&#x1F4AF; Grades</h2>
             </div>
             <div className={classes["img-wrapper"]}>
-              <img src="" alt="Chart 1" />
+              {/* <div className={classes["img-div-1"]}></div> */}
+              <img
+                src="http://electron6.phys.utk.edu/qm1/newimages/Animation1.gif"
+                alt="Chart 1"
+              />
             </div>
             <div className={classes["info-box"]}>
               <p>Average: 77%</p>
@@ -31,7 +35,10 @@ const ResultsCard = () => {
               <h2>Grader Ability</h2>
             </div>
             <div className={classes["img-wrapper"]}>
-                <img src="" alt="" />
+              <img
+                src="https://cdn.vaizle.com/ng-vwox-core/images/why-vaizle/analyst/actionable-insights.gif"
+                alt="Chart 2"
+              />
             </div>
             <div className={classes["info-box"]}>
               <p>Reliable graders: 77%</p>
@@ -43,7 +50,11 @@ const ResultsCard = () => {
               <h2>&#x267B; Feedback quality</h2>
             </div>
             <div className={classes["img-wrapper"]}>
-              <img src="" alt="Chart 1" />
+              {/* <div className={classes["img-div-3"]}></div> */}
+              <img
+                src="https://media.istockphoto.com/photos/donut-chart-picture-id1364998311?b=1&k=20&m=1364998311&s=170667a&w=0&h=NR5jb8Rgf7gWkOLuvGHrBF3Kg0IveZe00RawWZp4O3o="
+                alt="Chart 3"
+              />
             </div>
             <div className={classes["info-box"]}>
               <p>Useful: 72%</p>
