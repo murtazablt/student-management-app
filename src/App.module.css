@@ -4,8 +4,10 @@
   min-width: 100vw;
 
   display: grid;
-  grid-template-rows: 1fr 25vw 25vw;
+  grid-template-rows: 1fr 4fr 4fr;
+  grid-row-gap: 10px;
   grid-template-columns: repeat(12, 1fr);
+
 
   /* @media only screen and (max-width: $bp-large) {
     grid-template-rows: 6rem 80vh min-content 40vw repeat(3, min-content);

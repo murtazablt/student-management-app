@@ -1,6 +1,6 @@
 import classes from "./HeaderBox.module.css";
 
-import icons from "../../../Assets/Icons/index/index";
+import icons from "../../../../Assets/Icons/index/index";
 
 const HeaderBox = () => {
   const { PresentationChart } = icons;
