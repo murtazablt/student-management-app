@@ -1,9 +1,15 @@
 # Student Management App User Interface
 ### Version: 1.0.0
 ### Date Updated: 26.10.2022
-## [Want to see demo? Click here!](https://student-management-app-murtazablt.vercel.app/]):
+## [Want to see demo? Click here!](https://student-management-app-murtazablt.vercel.app/])
 
 ## How to install in local machine?
+Step one: `npm install`
+Step two: `npm run start`
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
 ## What is it?
 This website's main feature is to display an user interface of an imaginary student management system for an university.
@@ -19,14 +25,6 @@ First one is header section. Header section includes some links for user navigat
 ## Available Scripts
 
 In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### `npm run build`
 
