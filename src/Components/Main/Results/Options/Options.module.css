@@ -1,0 +1,34 @@
+.options {
+  position: relative;
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 1% 5%;
+}
+.option {
+  margin-right: 3%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.option:not(:last-child)::after {
+  content: "";
+  width: 1px;
+  height: 60%;
+  background-color: var(--color-grey-dark-1);
+  position: absolute;
+  transform: translateX(800%);
+}
+
+.option a:link,
+.option a:visited {
+  text-decoration: none;
+  color: #d7dfe8;
+}
+.option a:link:hover,
+.option a:visited:hover {
+  color: var(--color-primary);
+}

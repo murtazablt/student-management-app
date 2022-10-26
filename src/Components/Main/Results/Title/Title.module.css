@@ -1,0 +1,16 @@
+.title {
+  grid-column: 1 / -1;
+  margin: 1% 5%;
+  margin-bottom: 2%;
+}
+
+.title p a:link,
+.title p a:visited {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+}
+.title p a:link:hover,
+.title p a:visited:hover {
+  color: var(--color-grey-dark-1);
+}
