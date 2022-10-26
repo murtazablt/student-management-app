@@ -2,7 +2,7 @@ import classes from "./ChangeItem.module.css";
 
 const ChangeItem = ({ changeItemInfo }) => {
   return (
-    <li className={classes["change-item"]} key={changeItemInfo.changeName}>
+    <li className={classes["change-item"]}>
       <a href="#" className={classes["change-item-link"]}>
         <div className={classes["change-icon"]}>
           <changeItemInfo.icon />
