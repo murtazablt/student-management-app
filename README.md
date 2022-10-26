@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+# Student Management App User Interface
+## Version: 1.0.0
+## Date Updated: 26.10.2022
+## If you want right to see demo, click here:
+[https://student-management-app-murtazablt.vercel.app/]
+
+## What is it?
+This website's main feature is to display an user interface of an imaginary student management system for an university.
+There is no real data, hypothetically it records all of the information about students and compare them according to given conditions such as grades, grader ability, feedback quality. 
+
+The website consist of three parts.
+
+First one is header section. Header section includes some links for user navigation and file directories.
+
+## If you want jump into code click here:
 
 
 ## Available Scripts
