@@ -9,7 +9,7 @@ import { MdFileUpload as Upload } from "react-icons/md";
 import { FaStarHalfAlt as HalfStar } from "react-icons/fa";
 import { MdPlaylistAddCheck as AddCheck } from "react-icons/md";
 import { HiOutlineClipboardCopy as ClipBoard } from "react-icons/hi";
-
+import {AiOutlineSearch as Search} from "react-icons/ai"
 {
   /*🆘💯🎉  */
 }
@@ -25,6 +25,7 @@ const icons = {
   AddCheck,
   HalfStar,
   ClipBoard,
+  Search
 };
 
 export default icons;
