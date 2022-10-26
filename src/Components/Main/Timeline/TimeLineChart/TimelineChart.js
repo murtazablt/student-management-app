@@ -24,23 +24,15 @@ const TimelineChart = () => {
         spaceBetween={20}
         slidesPerView={20}
         scrollbar={{ draggable: true }}
-        onSwiper={(swiper) => console.log(swiper)}
-        onSlideChange={() => console.log("slide change")}
+        // onSwiper={(swiper) => console.log(swiper)}
+        // onSlideChange={() => console.log("slide change")}
       >
         {days.map((day) => (
           <SwiperSlide key={day}>
-            <LineBox
-              day={day}
-              now={day === 10 ? true : false}
-            />
+            <LineBox day={day} now={day === 10 ? true : false} />
           </SwiperSlide>
         ))}
       </Swiper>
-      {/* <div className={classes["grid-overlay"]}>
-        <div className={classes["now-line"]}>
-          <span>Now</span>{" "}
-        </div>
-      </div> */}
     </div>
   );
 };

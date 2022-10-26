@@ -2,6 +2,8 @@
   grid-column: 1 / -1;
   display: flex;
   margin: 1% 5%;
+
+  font-family: var(--font-secondary);
 }
 .chartCard {
   flex: 1;
@@ -33,5 +35,5 @@
   padding: 2px 8px;
 }
 .info-box p {
-  font-weight: 700;
+  font-weight: 600;
 }

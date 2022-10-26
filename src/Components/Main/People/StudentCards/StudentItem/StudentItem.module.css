@@ -1,4 +1,6 @@
 .student-item {
+  font-family: var(--font-secondary);
+
   display: flex;
   list-style: none;
   padding: 3px 5px;
@@ -9,9 +11,9 @@
   gap: 8px;
 }
 .student-item p {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: var(--color-grey-dark-1-2);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-grey-dark-2);
 }
 .student-img-container {
   width: 2.5rem;
