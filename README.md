@@ -1,8 +1,9 @@
 # Student Management App User Interface
-## Version: 1.0.0
-## Date Updated: 26.10.2022
-## If you want right to see demo, click here:
-[https://student-management-app-murtazablt.vercel.app/]
+### Version: 1.0.0
+### Date Updated: 26.10.2022
+## [Want to see demo? Click here!](https://student-management-app-murtazablt.vercel.app/]):
+
+## How to install in local machine?
 
 ## What is it?
 This website's main feature is to display an user interface of an imaginary student management system for an university.
