@@ -8,6 +8,22 @@
   justify-content: space-between;
   align-items: flex-start;
 }
+@media (max-width: 1000px) {
+  .changes-card {
+    margin-left: 2%;
+    margin-right: 5%;
+    grid-column: 2 / -1;
+    grid-row: 1/2;
+    align-self: center;
+  }
+}
+@media (max-width: 600px) {
+  .changes-card {
+    grid-column: 3 / 5;
+  }
+}
+
+
 .change-card {
   display: flex;
   flex-direction: column;
@@ -18,11 +34,20 @@
   margin: 0 10px;
   box-shadow: var(--shadow-light);
 }
+@media (max-width: 600px) {
+  .change-card {
+    box-shadow: unset;
+    border-left: 1px solid var(--color-grey-light-1);
+    border-radius: 0px;
+  }
+}
+
 
 .change-card-title {
   margin: 1rem 2rem;
   font-size: 1.6rem;
 }
+
 .changes-list {
   margin: 6px 0;
   margin-bottom: 1rem;

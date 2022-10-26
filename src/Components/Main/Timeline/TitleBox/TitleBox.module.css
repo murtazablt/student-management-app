@@ -5,3 +5,8 @@
   margin-left: 3.2rem;
   margin-top: 2.5rem;
 }
+@media (max-width: 550px) {
+  .title-box {
+    flex-wrap: wrap;
+  }
+}

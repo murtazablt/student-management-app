@@ -5,6 +5,14 @@
   align-items: center;
 }
 
+@media (max-width: 600px) {
+  .logo-and-title {
+   flex: 0 0 100%;
+   justify-content: flex-start;
+  }
+}
+
+
 .logo {
   display: flex;
   justify-content: center;
@@ -48,3 +56,4 @@
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
 }
+

@@ -1,7 +1,7 @@
 .task-box {
   position: absolute;
   z-index: 10;
-  width: 850%;
+
   flex: 1;
   height: 20%;
   border-radius: 100px;
@@ -11,6 +11,23 @@
   display: flex;
   box-shadow: var(--shadow-light);
 }
+@media (max-width: 650px) {
+  .task-box {
+    height: 16%;
+  }
+}
+@media (max-width: 643px) {
+  .task-box {
+    height: 12%;
+  }
+}
+@media (max-width: 408px) {
+  .task-box {
+    height: 10%;
+  }
+}
+
+
 .task-notification {
   font-size: 0.8rem !important;
   height: 1.25rem;
@@ -70,27 +87,97 @@
 }
 
 .box-1 {
+  width: 850%;
 }
+
+@media (max-width:1100px) {
+  .box-1 {
+    width: 700%;
+  }
+}
+@media (max-width:500px) {
+  .box-1 {
+    width: 620%;
+  }
+}
+
 .box-7 {
   width: 520%;
   background-color: #fef08a;
 }
+@media (max-width: 1100px) {
+  .box-7 {
+    width: 460%;
+  }
+}
+@media (max-width:500px) {
+  .box-7 {
+    width: 400%;
+  }
+}
+
 .box-7-plus {
   background-color: #fef08a;
   width: 520%;
   left: 20px;
   bottom: 90px;
 }
+
+@media (max-width: 1100px) {
+  .box-7-plus {
+    width: 460%;
+  }
+}
+@media (max-width:500px) {
+  .box-7-plus {
+    width: 400%;
+  }
+}
+@media (max-width: 408px) {
+  .box-7-plus {
+    bottom: 100px;
+  }
+}
+
+
 .box-11 {
   background-color: #e2e8f0;
   width: 520%;
   left: 20px;
   bottom: 90px;
 }
+@media (max-width: 1100px) {
+  .box-11 {
+    width: 460%;
+  }
+}
+@media (max-width:500px) {
+  .box-11 {
+    width: 400%;
+  }
+}
+@media (max-width: 408px) {
+  .box-11 {
+    bottom: 100px;
+  }
+}
+
+
 .box-15 {
   background-color: #e2e8f0;
   width: 710%;
 }
+@media (max-width: 1100px) {
+  .box-15 {
+    width: 650%;
+  }
+}
+@media (max-width:500px) {
+  .box-15 {
+    width: 550%;
+  }
+}
+
 
 .icon-box-1 svg {
 }

@@ -19,19 +19,3 @@
 
   z-index: 10;
 }
-
-/* .now-line{
-  position: sticky;
-  width: 5px;
-  height: 137%;
-  border-left: 2px solid var(--color-primary);
-  grid-column: 10 / 11;
-  grid-row: 1 / -1;
-} */
-/* .now-line span {
-  position: absolute;
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--color-primary);
-  transform: translate(-50%,-100%)
-} */

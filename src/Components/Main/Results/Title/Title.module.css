@@ -1,8 +1,10 @@
 .title {
   grid-column: 1 / -1;
+  grid-row: 1 / 2;
   margin: 1% 5%;
   margin-bottom: 2%;
 }
+
 
 .title p a:link,
 .title p a:visited {

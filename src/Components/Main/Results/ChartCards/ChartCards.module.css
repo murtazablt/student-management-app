@@ -1,25 +1,60 @@
 .charts {
   grid-column: 1 / -1;
+  grid-row: 2 / 4;
   display: flex;
   margin: 1% 5%;
 
   font-family: var(--font-secondary);
 }
-.chartCard {
-  flex: 1;
-  height: 100%;
-  width: 100%;
-  margin-right: 10px;
-  border-radius: 10px;
-  box-shadow: var(--shadow-medium);
-
-  display: flex;
-  flex-direction: column;
+@media (max-width: 1000px) {
+  .charts {
+    gap: 32px;
+  }
 }
+@media (max-width: 600px) {
+  .charts {
+    gap: 8px;
+    height: 75%;
+  }
+}
+@media (max-width: 400px) {
+  .charts {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .chartCard {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: var(--shadow-medium);
+
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 400px) {
+  .chartCard {
+    grid-row: 2 / 5;
+    height: unset;
+    width: unset;
+    flex: 0 0 85%;
+  }
+}
+
 .chart-card-title {
   font-size: 0.9rem;
   margin-left: 5px;
   margin-bottom: 1px;
+}
+@media (max-width: 1000px) {
+  .chart-card-title {
+    margin-left: 5%;
+    margin-bottom: 3px;
+  }
 }
 
 .img-wrapper {

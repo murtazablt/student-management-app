@@ -20,12 +20,38 @@ const TimelineChart = () => {
     <div className={classes.wrapper}>
       <Swiper
         // install Swiper modules
+        breakpoints={{
+          400: {
+            slidesPerView: 6,
+            spaceBetween: 6,
+          },
+          500: {
+            slidesPerView: 8,
+            spaceBetween: 8,
+          },
+          650: {
+            slidesPerView: 10,
+            spaceBetween: 10,
+          },
+          900: {
+            slidesPerView: 16,
+            spaceBetween: 13,
+          },
+          1100: {
+            slidesPerView: 18,
+            spaceBetween: 15,
+          },
+          1200: {
+            slidesPerView: 20,
+            spaceBetween: 20,
+          }
+        }}
         modules={[Scrollbar, A11y]}
-        spaceBetween={20}
-        slidesPerView={20}
+        spaceBetween={6}
+        slidesPerView={6}
         scrollbar={{ draggable: true }}
-        // onSwiper={(swiper) => console.log(swiper)}
-        // onSlideChange={() => console.log("slide change")}
+        onSwiper={(swiper) => console.log(swiper)}
+        onSlideChange={() => console.log("slide change")}
       >
         {days.map((day) => (
           <SwiperSlide key={day}>

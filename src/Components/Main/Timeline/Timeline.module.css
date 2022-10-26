@@ -12,3 +12,11 @@
 
   box-shadow: var(--shadow-light);
 }
+
+@media (max-width: 400px) {
+  .container {
+    margin-top: 10px;
+    height: 96%;
+  }
+}
+

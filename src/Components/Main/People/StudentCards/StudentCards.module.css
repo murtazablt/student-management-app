@@ -6,7 +6,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
+@media (max-width: 400px) {
+  .student-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+}
+
 .student-card {
   display: flex;
   flex-direction: column;
@@ -16,10 +25,17 @@
   margin: 0 10px;
   box-shadow: var(--shadow-light);
 }
+@media (max-width: 400px) {
+  .student-card {
+    margin: 0 10px;
+    flex: 0 0 80%;
+  }
+}
+
 
 .student-card-title {
   margin: 1px 15px;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 .students-list {
   margin: 8px 0;

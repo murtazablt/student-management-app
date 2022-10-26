@@ -6,6 +6,12 @@
   justify-content: space-between;
   align-items: center;
   font-family: var(--font-primary);
+  
 }
 
 
+@media (max-width: 600px) {
+  .wrapper {
+    flex-wrap: wrap;
+  }
+}

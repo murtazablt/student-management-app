@@ -9,6 +9,26 @@
   box-shadow: var(--shadow-light);
   background-color: var(--color-white);
 }
+@media (max-width: 1000px) {
+  .container {
+    grid-column: 1/9;
+    grid-row: 4 / 5;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    grid-column: 1/-1;
+    grid-row: 4 / 5;
+    width: 92%;
+    height: 90%;
+  }
+}
+@media (max-width: 400px) {
+  .container {
+    height: 94%;
+  }
+}
+
 
 .wrapper {
   width: 100%;
@@ -17,4 +37,9 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 2fr 7fr 1fr;
 }
-
+@media (max-width: 400px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 15% 1fr 5%;
+  }
+}
