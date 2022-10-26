@@ -1,6 +1,6 @@
 # Student Management App User Interface
-## Version: 1.0.0
-## Date Updated: 26.10.2022
+### Version: 1.0.0
+### Date Updated: 26.10.2022
 ## If you want right to see demo, click here:
 [https://student-management-app-murtazablt.vercel.app/]
 
