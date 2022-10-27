@@ -21,7 +21,7 @@ Also you can track all projects by utilizing from a draggable timeline and see f
 The website consist of three parts. 
 
 First one is header section. Header section includes some links for user navigation and file directories. \
-Second one is timeline section. Timeline involves task boxes that gives us information about project's status, date etc. \
+Second one is timeline section. Timeline is draggable so you can slide it for a month and involves task boxes that gives us information about project's status, date etc. \
 Third one has three cards that describe some information about students and show alternative options.
 
 
