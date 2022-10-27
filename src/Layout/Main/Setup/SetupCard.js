@@ -1,8 +1,8 @@
 import classes from "./SetupCard.module.css";
-import icons from "../../../Assets/Icons/index";
+import icons from "../../../Assets/Icons/index/index";
 
-import Title from "./Title/Title";
-import Changes from "./Changes/Changes"
+import Title from "../../../Components/Main/Setup/Title/Title";
+import Changes from "../../../Components/Main/Setup/Changes/Changes"
 
 const SetupCard = () => {
   return (

@@ -1,8 +1,8 @@
-import Header from "./Components/Header//Header";
-import Timeline from "./Components/Main/Timeline/Timeline"
-import ResultsCard from "./Components/Main/Results/ResultsCard";
-import People from "./Components/Main/People/People"
-import SetupCard from "./Components/Main/Setup/SetupCard";
+import Header from "./Layout/Header/Header";
+import Timeline from "./Layout/Main/Timeline/Timeline"
+import ResultsCard from "./Layout/Main/Results/ResultsCard";
+import People from "./Layout/Main/People/People"
+import SetupCard from "./Layout/Main/Setup/SetupCard";
 
 import classes from "./App.module.css";
 

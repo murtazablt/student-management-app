@@ -1,8 +1,8 @@
 import classes from "./ResultsCard.module.css";
 
-import Title from "./Title/Title";
-import ChartCards from "./ChartCards/ChartCards"
-import Options from "./Options/Options";
+import Title from "../../../Components/Main/Results/Title/Title";
+import ChartCards from "../../../Components/Main/Results/ChartCards/ChartCards"
+import Options from "../../../Components/Main/Results/Options/Options";
 
 const ResultsCard = () => {
   return (

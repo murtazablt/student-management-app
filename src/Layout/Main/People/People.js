@@ -1,8 +1,8 @@
 import classes from "./People.module.css";
 
-import Title from "./Title/Title";
-import StudentCards from "./StudentCards/StudentCards";
-import Options from "./Options/Options";
+import Title from "../../../Components/Main/People/Title/Title";
+import StudentCards from "../../../Components/Main/People/StudentCards/StudentCards";
+import Options from "../../../Components/Main/People/Options/Options";
 
 const People = () => {
   return (

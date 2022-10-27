@@ -1,6 +1,6 @@
 import classes from "./UserIcons.module.css";
-import images from "../../Assets/Images/index";
-import icons from "../../Assets/Icons/index";
+import images from "../../../Assets/Images/index";
+import icons from "../../../Assets/Icons/index/index";
 
 const UserIcons = () => {
   const { Bell, Apps, QuestionMark, EllipsisV } = icons;
