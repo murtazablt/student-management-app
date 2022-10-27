@@ -2,8 +2,7 @@
 ### Version: 1.0.0
 ### Date Updated: 26.10.2022
 ## [Want to see demo? Click here!](https://student-management-app-murtazablt.vercel.app/])
-## [Want to jump into the code? Click here!](src/App.js])
-## [Want to jump into documentation? Check GithubWiki!](https://github.com/murtazablt/student-management-app/wiki])
+## Want to jump into documentation? Check GithubWiki pages!
 
 
 ## How to install in local machine?
