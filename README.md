@@ -3,7 +3,7 @@
 ### Date Updated: 26.10.2022
 ## [Want to see demo? Click here!](https://student-management-app-murtazablt.vercel.app/])
 ## [Want to jump into the code? Click here!](https://github.com/murtazablt/student-management-app/blob/main/src/App.js])
-## [Want to jump documentation? Click here!](https://github.com/murtazablt/student-management-app/wiki/Development])
+## [Want to jump into documentation? Click here!](https://github.com/murtazablt/student-management-app/wiki/Development])
 https://github.com/murtazablt/student-management-app/wiki/Development
 
 ## How to install in local machine?
