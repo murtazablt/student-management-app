@@ -5,7 +5,7 @@
 ## Want to jump into documentation? Check GithubWiki pages!
 
 
-## How to install in local machine?
+## How to install and run in local machine?
  Step one: `npm install` \
  Step two: `npm run start` \
 Runs the app in the development mode.\
